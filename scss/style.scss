@@ -1,5 +1,11 @@
 $rose: rgb(255, 239, 238);
 $white: rgb(255, 255, 255);
+$footer-color: rgb(165, 122, 122);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9rem;
+}
 
 .rose-background {
   background-color: $rose;
@@ -13,20 +19,19 @@ $white: rgb(255, 255, 255);
   background-color: $white !important;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.9rem;
-}
-
 a {
   transition: all 1s ease-out;
   text-decoration: none;
-  color: rgb(165, 122, 122);
+  color: $footer-color;
 }
 
 a:hover {
   text-decoration: underline;
-  color: rgb(165, 122, 122);
+  color: $footer-color;
+}
+
+button:focus {
+  outline-color: rgba(255, 213, 213, 0.575);
 }
 
 nav {
@@ -67,13 +72,8 @@ nav {
   align-content: space-between;
 
   a {
-    color: rgb(165, 122, 122);
     font-size: 1.3rem;
     padding-left: 5px;
-  }
-
-  a:hover {
-    color: rgb(165, 122, 122);
   }
 
   .socialicons {
@@ -84,11 +84,6 @@ nav {
 .mylogo {
   text-align: center;
   cursor: pointer;
-
-  a:hover {
-    color: rgb(165, 122, 122);
-    transition-duration: 1s;
-  }
 }
 
 .jumbotron {
@@ -125,9 +120,6 @@ nav {
     box-shadow: 1px 1px 1px rgba(124, 71, 2, 0.2);
     transition-duration: 1s;
     color: black;
-  }
-  button:focus {
-    outline-color: rgba(255, 213, 213, 0.575);
   }
 
   .services {
