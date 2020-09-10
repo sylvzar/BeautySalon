@@ -1,0 +1,163 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid {
+  background-color: rgb(255, 239, 238);
+}
+
+.rose-background {
+  background-color: rgb(255, 239, 238);
+}
+
+.white-background {
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  border-bottom: 1px solid rgba(235, 187, 187, 0.527);
+}
+
+.navbar-nav {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.navbar-brand {
+  color: black;
+  font-family: 'Qwigley';
+  font-size: 4rem;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  /* border: 1px solid rgba(255, 213, 213, 0.8);
+  border-radius: 15px; */
+  margin-right: 5px;
+  margin-top: 3px;
+  color: rgba(0, 0, 0, 0.753) !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(235, 187, 187, 0.527);
+  color: rgba(0, 0, 0, 0.8) !important;
+  transition-duration: 0ms;
+}
+
+.mylogo {
+  text-align: center;
+  cursor: pointer;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: 'Qwigley';
+  text-align: center;
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: rgb(255, 247, 247);
+  color: black;
+  border-color: rgba(185, 136, 136, 0.699);
+  box-shadow: 1px 1px 1px rgba(124, 71, 2, 0.2);
+  transition: 1s ease-out;
+}
+
+.btn:hover {
+  background-color: rgb(241, 163, 163);
+  border-color: rgba(124, 71, 2, 0);
+  box-shadow: 1px 1px 1px rgba(124, 71, 2, 0.2);
+  transition-duration: 1s;
+  color: black;
+}
+
+.bg-light {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.card-group {
+  text-align: center;
+}
+
+.card {
+  border-color: rgb(255, 222, 222);
+}
+
+.mylogo a:hover {
+  color: rgb(165, 122, 122);
+  transition-duration: 1s;
+}
+
+a {
+  transition: all 1s ease-out;
+}
+
+.mysocial {
+  color: rgb(134, 103, 103);
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.mysocial a {
+  color: rgb(165, 122, 122);
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+.mysocial a:hover {
+  color: rgb(165, 122, 122);
+}
+
+.socialicons {
+  margin-top: -25px;
+}
+
+.myfooter {
+  color: rgb(165, 122, 122);
+  align-items: center;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+button:focus {
+  outline-color: rgba(255, 213, 213, 0.575);
+}
+
+.endfoot {
+  color: rgb(165, 122, 122);
+  font-size: 0.8rem;
+}
+
+.profilephoto {
+  border: 1px rgba(185, 136, 136, 0.699) solid;
+  border-radius: 50%;
+  max-width: 70%;
+}
+
+.profilesection {
+  border: 1px solid rgb(255, 222, 222);
+}
+
+.servicephoto {
+  max-width: 100%;
+}
+
+.myborder {
+  border-bottom: 1px solid rgba(235, 187, 187, 0.527);
+  border-radius: 0%;
+}
+
+.makeupartist {
+  position: relative;
+  font-size: 0.8rem;
+  margin-left: -110px;
+  margin-top: -40px;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.05rem;
+}
