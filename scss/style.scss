@@ -84,6 +84,15 @@ nav {
 .mylogo {
   text-align: center;
   cursor: pointer;
+  font-family: 'Qwigley';
+  font-size: 5rem;
+  font-weight: lighter;
+  color: #8d6f6f;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .jumbotron {
